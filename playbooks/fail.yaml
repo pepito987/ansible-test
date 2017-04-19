@@ -1,0 +1,8 @@
+---
+- name: This is a failing example
+  hosts: localhost
+  connection: local
+  tasks:
+    - name: Fail example
+      fail:
+        msg: "The system may not be provisioned correctly"
